@@ -1,0 +1,203 @@
+[
+	{
+		"category": "consultancy",
+		"url": "how-to-grow-your-business",
+		"available": 1,
+		"video": {
+			"title": "How to grow your business",
+			"desc": "Identify trends, spot opportunities and overcome the challenges of growth.",
+			"video_cta": "Watch the video",
+			"date": "14 July 2015",
+			"date_text": "Coming soon",
+			"main_video_img": "conversation-video.jpg",
+    	"small_video_img": "video-1.jpg",
+			"vin_id": "-DLBPfthylaYI5tMI78aTw"
+		},
+		"related_content_lib": {
+			"title": "Our Recommended Readings",
+			"desc": "We have a number of articles and new downloads related to this topic for you.",
+			"cta_text": "View Library"
+		},
+		"social": {
+			"title": "Identify trends, spot opportunities and overcome the challenges of growth.",
+			"twitter_link": "#",
+			"linkedin_link": "#"
+		},
+		"experts": [
+			{
+				"name": "Paul Connolly",
+				"job_title": "DIRECTOR OF THINK TANK, MCA",
+				"profile_link": "/#/what-if/our-experts/paul-connolly/",
+				"image": "paul-connolly.png"
+			},
+			{
+				"name": "Russell Clark",
+				"job_title": "DIRECTOR SALES ENGINEERING",
+				"profile_link": "/#/what-if/our-experts/russell-clark/",
+				"image": "russell-clark.png"
+			},
+			{
+				"name": "Simon Montague",
+				"job_title": "BUSINESS DIRECTOR, CONSULTING",
+				"profile_link": "/#/what-if/our-experts/simon-montague/",
+				"image": "simon-montague.png"
+			}
+		],
+		"recommended_readings": {
+			"title": "How to prepare for growth",
+			"desc": "As the global economy recovers, new opportunities emerge. Read our e-guide and find out what you need to consider before embarking on a programme of rapid growth in your agency.",
+			"cta_text": "Download the e-guide",
+			"cta_link": "#",
+			"author": "Jack Sellers",
+			"pages": "14",
+			"file_size": "7.2mb"
+		},
+		"assets": [
+			{
+				"type": "Blog",
+				"title": "Blog",
+				"subtitle": "How to grow your consultancy",
+				"desc": "The market for consulting services is thriving. Revenues are up but profit margins are still a challenge. Read our blog to find out how you can manage this upward trend and maximize margins.",
+				"cta": "Read the blog",
+				"cta_link": "/blog",
+				"image": "download-1.jpg"
+			}
+		]
+	},
+	{
+		"category": "consultancy",
+		"url": "clearing-the-way-to-the-cloud",
+		"available": 0,
+		"video": {
+			"title": "Clearing the way to the Cloud",
+			"desc": "What’s motivating consulting firms to migrate their systems to the Cloud?",
+			"video_cta": "Watch the video",
+			"date": "14 July 2015",
+			"date_text": "Coming soon",
+			"main_video_img": "conversation-video.jpg",
+    	"small_video_img": "video-1.jpg",
+			"vin_id": "EWapWso65YcsnrmA7X5sGw"
+		},
+		"related_content_lib": {
+			"title": "Related Content Library",
+			"desc": "We have a number of articles and new downloads related to this topic for you.",
+			"cta_text": "View Library"
+		},
+		"social": {
+			"title": "What’s motivating consulting firms to migrate their systems to the Cloud?",
+			"twitter_link": "#",
+			"linkedin_link": "#"
+		},
+		"experts": [
+			{
+				"name": "Tom Smith",
+				"job_title": "ERP SALES MANAGER - UK & MIDDLE EAST",
+				"profile_link": "#",
+				"image": "raymond-kieser.png"
+			},
+			{
+				"name": "Carl Taylor",
+				"job_title": "ERP SALES MANAGER - UK & MIDDLE EAST",
+				"profile_link": "#",
+				"image": "raymond-kieser.png"
+			}
+		],
+		"recommended_readings": {
+			"title": "Our recommended readings",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate mollis orci, sed rhoncus sapien nunc eget odio.",
+			"cta_text": "Download the e-book",
+			"cta_link": "#",
+			"author": "Jack Sellers",
+			"pages": "14",
+			"file_size": "7.2mb"
+		},
+		"assets": [
+			{
+				"type": "Blog",
+				"title": "Post title 2",
+				"subtitle": "Lorem Ipsum Dolor Sit Amet",
+				"desc": "text",
+				"cta": "Go to blog",
+				"cta_link": "/blog",
+				"image": "download-1.jpg"
+			},
+			{
+				"type": "Download",
+				"title": "Download title 2",
+				"subtitle": "Lorem Ipsum Dolor Sit Amet",
+				"desc": "text",
+				"cta": "Download",
+				"cta_link": "/download",
+				"image": "download-1.jpg"
+			}
+		]
+	},
+	{
+		"category": "consultancy",
+		"url": "its-time-for-real-time",
+		"available": 0,
+		"video": {
+			"title": "It’s time for real-time",
+			"desc": "How can real-time analytics help consultancies stay competitive and grow?",
+			"video_cta": "Watch the video",
+			"date": "14 July 2015",
+			"date_text": "Coming soon",
+			"main_video_img": "conversation-video.jpg",
+    	"small_video_img": "video-1.jpg",
+			"vin_id": "kuhJhV0vs-xG6odXON8tHw"
+		},
+		"related_content_lib": {
+			"title": "Related Content Library",
+			"desc": "We have a number of articles and new downloads related to this topic for you.",
+			"cta_text": "View Library"
+		},
+		"social": {
+			"title": "How can real-time analytics help consultancies stay competitive and grow?",
+			"twitter_link": "#",
+			"linkedin_link": "#"
+		},
+		"experts": [
+			{
+				"name": "Tom Smith",
+				"job_title": "ERP SALES MANAGER - UK & MIDDLE EAST",
+				"profile_link": "#",
+				"image": "raymond-kieser.png"
+			},
+			{
+				"name": "Carl Taylor",
+				"job_title": "ERP SALES MANAGER - UK & MIDDLE EAST",
+				"profile_link": "#",
+				"image": "raymond-kieser.png"
+			}
+		],
+		"recommended_readings": {
+			"title": "Our recommended readings",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate mollis orci, sed rhoncus sapien nunc eget odio.",
+			"cta_text": "Download the e-book",
+			"cta_link": "#",
+			"author": "Jack Sellers",
+			"pages": "14",
+			"file_size": "7.2mb"
+		},
+		"assets": [
+			{
+				"type": "Blog",
+				"title": "Post title 3",
+				"subtitle": "Lorem Ipsum Dolor Sit Amet",
+				"desc": "text",
+				"cta": "Go to blog",
+				"cta_link": "/blog",
+				"image": "download-1.jpg"
+			},
+			{
+				"type": "Download",
+				"title": "Download title 3",
+				"subtitle": "Lorem Ipsum Dolor Sit Amet",
+				"desc": "text",
+				"cta": "Download",
+				"cta_link": "/download",
+				"image": "download-1.jpg"
+			}
+		]
+	}
+]

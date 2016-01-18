@@ -1,0 +1,320 @@
+.iso-section {
+	.filter-controls {
+		margin-bottom: 15px;
+		.btn-iso {
+			font-size: 1.9em;
+			margin-right: 2px;
+			padding: 16px 0px;
+			border: none;
+			border-radius: 0px;
+			color: #FFFFFF;
+			outline: 0;
+			border-color: transparent;
+			box-shadow: none;
+			&.two-buttons {
+				// cursor: default;
+				&.btn-consultancy {
+					// padding-right: 209px;
+					// padding-left: 210px;
+					// margin-right: 10px;
+				}
+				&.btn-agency {
+					// padding-right: 241px;
+					// padding-left: 241px;
+					// margin-right: 10px;
+				}
+			}
+			&.btn-show {
+				background: fade(@deltek-blue, 10%);
+				border-bottom: 5px solid @deltek-blue;
+				color: @deltek-blue;
+				padding-right: 28px;
+				padding-left: 28px;
+				&.hvr-sweep-to-top:before {
+					background: @deltek-blue;
+				}
+				&.hvr-sweep-to-top.active {
+					background: @deltek-blue;
+					color: #FFFFFF;
+				}
+				&:hover {
+					color: #FFFFFF;
+				}
+			}
+			&.btn-consultancy {
+				background: fade(@deltek-consult, 10%);
+				border-bottom: 5px solid @deltek-consult;
+				color: @deltek-consult;
+				padding-right: 90px;
+				padding-left: 90px;
+				&.hvr-sweep-to-top:before {
+					background: @deltek-consult;
+				}
+				&.hvr-sweep-to-top.active {
+					background: @deltek-consult;
+					color: #FFFFFF;
+				}
+				&:hover {
+					color: #FFFFFF;
+				}
+			}
+			&.btn-agency {
+				background: fade(@deltek-agency, 10%);
+				border-bottom: 5px solid @deltek-agency;
+				color: @deltek-agency;
+				padding-right: 121px;
+				padding-left: 122px;
+				&.hvr-sweep-to-top:before {
+					background: @deltek-agency;
+				}
+				&.hvr-sweep-to-top.active {
+					background: @deltek-agency;
+					color: #FFFFFF;
+				}
+				&:hover {
+					color: #FFFFFF;
+				}
+			}
+			&.btn-architects-engineers {
+				background: fade(@deltek-arch, 10%);
+				border-bottom: 5px solid @deltek-arch;
+				color: @deltek-arch;
+				line-height: 1.3em;
+				padding: 8px 97px 3px 97px;
+				margin-right: 0px;
+				&.hvr-sweep-to-top:before {
+					background: @deltek-arch;
+				}
+				&.hvr-sweep-to-top.active {
+					background: @deltek-arch;
+					color: #FFFFFF;
+				}
+				&:hover {
+					color: #FFFFFF;
+				}
+			}
+		}
+	}
+}
+
+#isotopeContainer {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	li {
+		padding: 0;
+		margin: 0 0 15px 0;
+		&.isotope-item {
+			background: fade(#FFFFFF, 80%);
+			color: @deltek-blue;
+			.iso-item-box {
+				position: relative;
+			}
+			&.small {
+				width: 273px;
+				height: 260px;
+				.iso-tweet {
+					height: 100%;
+					text-align: center;
+					padding: 30px 30px 60px;
+					h4 {
+						font-size: 2em;
+						line-height: 1.4;
+						&:before {
+							content: '\201C';
+							color: #a0cfeb;
+							font-size: 6em;
+							position: relative;
+							top: -40px;
+							float: left;
+							height: 25px;
+							margin-left: 5px;
+						}
+						&:after {
+							content: '\201D';
+							color: #a0cfeb;
+							font-size: 6em;
+							position: absolute;
+							height: 25px;
+							margin: -25px 0px 0 5px;
+							display: inline-block;
+						}
+					}
+					.twitter-bird {
+						width: 34px;
+						height: 28px;
+						position: absolute;
+						bottom: 30px;
+						left: 0px;
+						right: 0px;
+						margin: 0 auto;
+						background: url(../images/twitter-bird.png) no-repeat;
+					}
+				}
+			}
+			&.tall {
+				width: 273px;
+				height: 535px;
+				h4 {
+					color: #FFFFFF;
+					font-size: 2.6em;
+				}
+				.iso-tall {
+					text-align: center;
+					padding: 0px 38px;
+					.content {
+						a.btn-deltek {
+							margin-top: 180px;
+							min-width: 197px;
+						}
+					}
+				}
+				&.consultancy {
+					background: url(../images/consultancy-bg.jpg) no-repeat;
+					h4 {
+						margin-top: 170px;
+					}
+				}
+				&.agency {
+					background: url(../images/agency-bg.jpg) no-repeat;
+					h4 {
+						margin-top: 170px;
+					}
+				}
+				&.architect {
+					background: url(../images/architect-bg.jpg) no-repeat;
+					h4 {
+						margin-top: 160px;
+					}
+				}
+			}
+			&.wide {
+				width: 561px;
+				height: 260px;
+				.iso-wide {
+					padding: 30px;
+					height: 100%;
+					.content {
+						width: 290px;
+						float: left;
+						h4 {
+							color: @deltek-blue;
+							font-size: 2.8em;
+							line-height: 1.1;
+							margin-bottom: 20px;
+						}
+						p {
+							color: @deltek-grey;
+							font-size: 1.5em;
+							line-height: 1.5;
+							margin-bottom: 20px;
+						}
+						a {
+							font-size: 2.2em;
+							text-decoration: underline;
+						}
+					}
+					.circle-image {
+						float: right;
+					}
+				}
+				.corner {
+					width: 114px;
+					height: 64px;
+					position: absolute;
+					bottom: 0px;
+					right: 0px;
+				}
+				&.consultancy {
+					.corner {
+						background: url(../images/consultancy-corner.png) no-repeat;
+					}
+				}
+				&.agency {
+					.corner {
+						background: url(../images/agency-corner.png) no-repeat;
+					}
+				}
+				&.architect {
+					.corner {
+						background: url(../images/architect-corner.png) no-repeat;
+					}
+				}
+			}
+			&.large {
+				width: 561px;
+				height: 535px;
+				.iso-large {
+					height: 100%;
+					overflow: hidden;
+					.content {
+						width: 561px;
+						padding: 30px;
+						h4 {
+							color: @deltek-blue;
+							font-size: 2.8em;
+							line-height: 1.1;
+							margin-bottom: 20px;
+						}
+						p {
+							color: @deltek-grey;
+							font-size: 1.5em;
+							line-height: 1.5;
+							margin-bottom: 20px;
+						}
+						a {
+							font-size: 2.2em;
+							text-decoration: underline;
+						}
+					}
+				}
+				.corner {
+					width: 114px;
+					height: 64px;
+					position: absolute;
+					bottom: 0px;
+					right: 0px;
+				}
+				&.consultancy {
+					.corner {
+						background: url(../images/consultancy-corner.png) no-repeat;
+					}
+				}
+				&.agency {
+					.corner {
+						background: url(../images/agency-corner.png) no-repeat;
+					}
+				}
+				&.architect {
+					.corner {
+						background: url(../images/architect-corner.png) no-repeat;
+					}
+				}
+			}
+		}
+	}
+}
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {
+	.isotope {
+		width: 850px; //940
+		margin: 0 auto;
+	}
+}
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+	.isotope {
+		width: 561px; //720
+		margin: 0 auto;
+	}
+}
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+	.isotope {
+		width: 668px;
+		margin: 0 auto;
+	}
+}

@@ -1,0 +1,219 @@
+<div class="container">
+  <section class="conversation-intro">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <h1 class="colour-scheme">What if? Vivamus pulvinar tellus a interdum dapibus</h1>
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</h2>
+        <!-- <div id="player"></div> -->
+        <script>
+        var tag = document.createElement('script');
+         tag.src = "http://www.youtube.com/iframe_api";
+         var firstScriptTag = document.getElementsByTagName('script')[0];
+         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+         var player;
+         var lastAction = '';
+         function onYouTubePlayerAPIReady() {
+             player = new YT.Player('player', {
+                 playerVars: {
+                     modestbranding: true,
+                     theme: 'light',
+                     rel: 0
+                 },
+                 height: '360',
+                 width: '480',
+                 videoId: 'ssvrkIGgJ9c',
+                 events: {
+                     'onStateChange': onPlayerStateChange
+                 }
+             });
+         }
+
+        function onPlayerStateChange(event) {
+             switch (event.data) {
+                 case YT.PlayerState.PLAYING:
+                     ga('send', 'event', 'video', 'started', 'Deltek_test');
+                     break;
+                 case YT.PlayerState.ENDED:
+                     ga('send', 'event', 'video', 'completed', 'Deltek_test');
+                     break;
+                 case YT.PlayerState.PAUSED:
+                     if (lastAction != 'paused') {
+                        ga('send', 'event', 'video', 'paused', 'Deltek_test');
+                     } else {
+                         lastAction = 'paused';
+                     }
+                     break;
+             }
+         }
+        </script>
+      </div>
+    </div>
+  </section>
+</div>
+<div ng-controller="VideoCtrl">
+  <div class="container">
+    <section class="conversation-expert-box section-margin" ng-repeat="data in videodata" ng-show="selected == $index">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="video-container single-video-template">
+            <h3>{{ data.title }}</h3>
+            <p><i class="fa fa-play"></i></p>
+            <p>WATCH THE VIDEO</p>
+          </div>
+          <div class="row social-container single-video">
+            <div class="col-lg-8 col-md-8 col-sm-7">
+              <p>Sed ut perspiciatis unde omnis iste natus error sit volupt atem accusantium doloremque laudantium, tota.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-5">
+              <div class="social-channels">
+                Share this video <a href="#"><img src="../images/conversation/twitter-icon.jpg" alt=""></a> <a href="#"><img src="../images/conversation/linkedin-icon.jpg" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section class="white-bg more-videos">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <h4>Other episodes</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div id="Carousel" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="item" ng-class="{active: !$index}" ng-repeat="item in videos">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-4" ng-repeat="data in item">
+                    <a href="" ng-click="videoSwap($index)" class="carousel-video-{{$index}}"><img src="../images/conversation/video-1.jpg" alt="" class="img-responsive"></a>
+                    <h5>{{ data.title }}</h5>
+                    <p>{{ data.desc }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <span class="left carousel-control" data-target="#Carousel" data-slide="prev" ng-if="dataCount">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </span>
+            <span class="right carousel-control" data-target="#Carousel" data-slide="next" ng-if="dataCount">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="grey-bg expert-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-7">
+          <div class="expert-inner">
+            <h4>My Thoughts</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-7 col-md-7 col-sm-7">
+          <div class="expert-inner">
+            <p class="colour-scheme">Sed ut perspiciatis unde omnis iste natus voluptatem natus error sit voluptatem accusantium doloremque laudantium.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate mollis orci, sed rhoncus sapien nunc eget odio.</p>
+          </div>
+          <div class="scheme-box">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta orci venenatis dolor aliquam tempor."</p>
+          </div>
+          <div class="expert-inner">
+            <p>Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-default btn-deltek btn-architect">Join the conversation</a>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-5">
+          <div class="expert-container text-center">
+            <img ng-src="../images/people/man-2.png" class="img-responsive expert-img">
+            <h4>Ian Norman</h4>
+            <h5 class="colour-scheme">SENIOR CONSULTANT</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Psodales pulvinar.</p>
+            <p>Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.</p>
+            <a href="#" class="btn btn-default btn-deltek btn-architect">Meet Ian</a>
+            <div class="social-channels">
+              <a href="#"><img src="../images/conversation/twitter-icon.jpg" alt=""></a>
+              <a href="#" class="social-pad"><img src="../images/conversation/linkedin-icon.jpg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="white-bg download-section">
+    <div class="container">
+      <div class="row recommend-read">
+        <div class="col-lg-5 col-md-5 col-sm-5">
+          <img src="../images/conversation/book-ph.png" alt="" class="img-responsive">
+        </div>
+        <div class="col-lg-7 col-md-7 col-sm-7">
+          <h4>Ben's recommended readings</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate mollis orci, sed rhoncus sapien nunc eget odio.</p>
+          <a href="#" class="btn btn-default btn-deltek btn-architect pull-left">Download the e-book</a>
+          <div class="download-details pull-left">
+            <p><strong>Author:</strong> Jack Sellers</p>
+            <p><strong>Pages:</strong> 14 <strong>File Size:</strong> 7.2mb</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div id="downloads" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-4">
+                    <img src="../images/conversation/download-1.jpg" class="img-responsive download-img" alt="">
+                    <div class="download-content text-center">
+                      <h5 class="colour-scheme">BLOG</h5>
+                      <h6>Post Title Lorem Ipsum Dolor Sit Amet</h6>
+                      <p>Consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parture.</p>
+                      <a href="" class="btn btn-default btn-deltek btn-architect">Go to the blog</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4">
+                    <img src="../images/conversation/download-2.jpg" class="img-responsive download-img" alt="">
+                    <div class="download-content text-center">
+                      <h5 class="colour-scheme">DOWNLOAD</h5>
+                      <h6>Content Title Lorem Ipsu Dolor Sit Amet</h6>
+                      <p>Consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parture.</p>
+                      <a href="" class="btn btn-default btn-deltek btn-architect">Download</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4">
+                    <img src="../images/conversation/download-3.jpg" class="img-responsive download-img" alt="">
+                    <div class="download-content text-center">
+                      <h5 class="colour-scheme">PRESENTATION</h5>
+                      <h6>Title Lorem Ipsu Dolor Sit Amet</h6>
+                      <p>Consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parture.</p>
+                      <a href="" class="btn btn-default btn-deltek btn-architect">Read more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <span class="left carousel-control" data-target="#downloads" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </span>
+            <span class="right carousel-control" data-target="#downloads" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <ng-include src="'/views/partials/contact-form.html'"></ng-include>
+
+</div>

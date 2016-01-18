@@ -1,0 +1,92 @@
+[
+  {
+    "content": {
+      "title": "Reach new heights",
+      "desc": "Wake up to a world of new potential and take your consultancy firm to the next level. Get the expert view on how to gain stronger insight into your operations, drive greater profitability from existing clients, and transform your business to capitalize on new opportunities.",
+      "image": "home1.jpg",
+      "link": {
+        "url": "/#/what-if/consultancy/driving-change-within-the-organisation/",
+        "external": 0,
+        "text": "Find out more"
+      }
+    },
+    "category": "consultancy",
+    "style": "large",
+    "class": "iso-category"
+  },
+	{
+    "content": {
+      "title": "Carry your ideas further",
+      "desc": "Outshine your competitors by applying the rich creative flair of your agency to the way you do business. Start a conversation with our experts about resource management, project delivery and financial transparency, and learn how consistent and flexible systems can help you optimize your agency.",
+      "image": "home2.jpg",
+      "link": {
+        "url": "/#/what-if/marcomms/maximising-the-margins/",
+        "external": 0,
+        "text": "Find out more"
+      }
+    },
+    "category": "agency",
+    "style": "large",
+    "class": "iso-category"
+  },
+  {
+    "content": {
+      "title": "Sed ut perspiciatis unde omnis iste natus error sit",
+      "desc": "",
+      "image": "",
+      "link": {
+        "url": "",
+        "external": 0,
+        "text": ""
+      }
+    },
+    "category": "tweet",
+    "style": "small",
+    "class": "iso-sub-category"
+  },
+  {
+    "content": {
+      "title": "Sed ut perspiciatis unde omnis iste natus error.",
+      "desc": "",
+      "image": "",
+      "link": {
+        "url": "",
+        "external": 0,
+        "text": ""
+      }
+    },
+    "category": "tweet",
+    "style": "small",
+    "class": "iso-sub-category"
+  },
+  {
+    "content": {
+      "title": "Sed ut perspiciatis unde omnis iste natus error sit",
+      "desc": "",
+      "image": "",
+      "link": {
+        "url": "",
+        "external": 0,
+        "text": ""
+      }
+    },
+    "category": "tweet",
+    "style": "small",
+    "class": "iso-sub-category"
+  },
+  {
+    "content": {
+      "title": "Sed ut perspiciatis unde omnis iste natus error.",
+      "desc": "",
+      "image": "",
+      "link": {
+        "url": "",
+        "external": 0,
+        "text": ""
+      }
+    },
+    "category": "tweet",
+    "style": "small",
+    "class": "iso-sub-category"
+  }
+]

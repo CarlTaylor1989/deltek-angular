@@ -1,0 +1,348 @@
+[
+	{
+		"category": "agency",
+		"url": "can-better-margins-inspire-better-creative-work",
+		"available": 1,
+		"video": {
+			"title": "Can better margins inspire better creative work?",
+			"desc": "Our experts offer insight on how agencies can increase margins and creativity.",
+			"video_cta": "Watch the video",
+			"date": "14 July 2015",
+			"date_text": "Coming soon",
+			"main_video_img": "conversation-video.jpg",
+    	"small_video_img": "video-1.jpg",
+			"vin_id": "-DLBPfthylaYI5tMI78aTw"
+		},
+		"related_content_lib": {
+			"title": "Our Recommended Readings",
+			"desc": "We have a number of articles and new downloads related to this topic for you.",
+			"cta_text": "View Library"
+		},
+		"social": {
+			"title": "Our experts offer insight on how agencies can increase margins and creativity.",
+			"twitter_link": "#",
+			"linkedin_link": "#"
+		},
+		"experts": [
+			{
+				"name": "Ray Kieser",
+				"job_title": "AGENCY PRACTICE DIRECTOR",
+				"profile_link": "/#/what-if/our-experts/ray-kieser/",
+				"image": "raymond-kieser.png"
+			},
+			{
+				"name": "Melanie Lawn",
+				"job_title": "HEAD OF CUSTOMER SUCCESS",
+				"profile_link": "/#/what-if/our-experts/melanie-lawn/",
+				"image": "melanie-lawn.png"
+			},
+			{
+				"name": "Esther Carder",
+				"job_title": "PARTNER, KINGSTON SMITH W1",
+				"profile_link": "/#/what-if/our-experts/esther-carder/",
+				"image": "esther-carder.png"
+			}
+		],
+		"recommended_readings": {
+			"title": "Retaining your creative talent",
+			"desc": "Without the right mix of skills and experience, agencies are often unable to deliver. Find out how your business can keep hold of your most valuable employees and attract new talent for future projects.",
+			"cta_text": "Download the e-guide",
+			"cta_link": "#",
+			"author": "Jack Sellers",
+			"pages": "14",
+			"file_size": "7.2mb"
+		},
+		"assets": [
+			{
+				"type": "E-Guide",
+				"title": "E-GUIDE",
+				"subtitle": "Balancing income and costs",
+				"desc": "Successful agencies are the ones that focus on their margin performance across the whole business. With rising costs and increasing employee salaries, how can agencies maintain profitability?",
+				"cta": "Download",
+				"cta_link": "/download",
+				"image": "download-2.jpg"
+			},
+			{
+				"type": "E-Guide",
+				"title": "E-GUIDE",
+				"subtitle": "Data-driven profitability",
+				"desc": "As your agency grows, you will encounter many challenges. Knowing what they are will help you to prepare for them. Here’s what you need to consider to help you maintain healthy business growth.",
+				"cta": "Download",
+				"cta_link": "/download",
+				"image": "download-2.jpg"
+			}
+		]
+	},
+	{
+		"category": "agency",
+		"url": "balancing-salaries-and-economic-pressure",
+		"available": 0,
+		"video": {
+			"title": "Balancing salaries and economic pressure",
+			"desc": "Find out how agencies can maintain a profit as operational costs continue to rise.",
+			"video_cta": "Watch the video",
+			"date": "14 July 2015",
+			"date_text": "Coming soon",
+			"main_video_img": "conversation-video.jpg",
+    	"small_video_img": "video-1.jpg",
+			"vin_id": "kuhJhV0vs-xG6odXON8tHw"
+		},
+		"related_content_lib": {
+			"title": "Our Recommended Readings",
+			"desc": "We have a number of articles and new downloads related to this topic for you.",
+			"cta_text": "View Library"
+		},
+		"social": {
+			"title": "Find out how agencies can maintain a profit as operational costs continue to rise.",
+			"twitter_link": "#",
+			"linkedin_link": "#"
+		},
+		"experts": [
+			{
+				"name": "Tom Smith",
+				"job_title": "ERP SALES MANAGER - UK & MIDDLE EAST",
+				"profile_link": "#",
+				"image": ""
+			},
+			{
+				"name": "Carl Taylor",
+				"job_title": "ERP SALES MANAGER - UK & MIDDLE EAST",
+				"profile_link": "#",
+				"image": ""
+			}
+		],
+		"recommended_readings": {
+			"title": "Our recommended readings",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate mollis orci, sed rhoncus sapien nunc eget odio.",
+			"cta_text": "Download the e-book",
+			"cta_link": "#",
+			"author": "Jack Sellers",
+			"pages": "14",
+			"file_size": "7.2mb"
+		},
+		"assets": [
+			{
+				"type": "Blog",
+				"title": "Post title 2",
+				"subtitle": "Lorem Ipsum Dolor Sit Amet",
+				"desc": "text",
+				"cta": "Go to blog",
+				"cta_link": "/blog",
+				"image": "download-1.jpg"
+			},
+			{
+				"type": "Download",
+				"title": "Download title 2",
+				"subtitle": "Lorem Ipsum Dolor Sit Amet",
+				"desc": "text",
+				"cta": "Download",
+				"cta_link": "/download",
+				"image": "download-1.jpg"
+			}
+		]
+	},
+	{
+		"category": "agency",
+		"url": "project-vs-retainer",
+		"available": 0,
+		"video": {
+			"title": "Project vs Retainer",
+			"desc": "Discover the benefits of project vs retainer and how to put a price on creativity.",
+			"video_cta": "Watch the video",
+			"date": "14 July 2015",
+			"date_text": "Coming soon",
+			"main_video_img": "conversation-video.jpg",
+    	"small_video_img": "video-1.jpg",
+			"vin_id": "kuhJhV0vs-xG6odXON8tHw"
+		},
+		"related_content_lib": {
+			"title": "Our Recommended Readings",
+			"desc": "We have a number of articles and new downloads related to this topic for you.",
+			"cta_text": "View Library"
+		},
+		"social": {
+			"title": "Discover the benefits of project vs retainer and how to put a price on creativity.",
+			"twitter_link": "#",
+			"linkedin_link": "#"
+		},
+		"experts": [
+			{
+				"name": "Tom Smith",
+				"job_title": "ERP SALES MANAGER - UK & MIDDLE EAST",
+				"profile_link": "#",
+				"image": ""
+			},
+			{
+				"name": "Carl Taylor",
+				"job_title": "ERP SALES MANAGER - UK & MIDDLE EAST",
+				"profile_link": "#",
+				"image": ""
+			}
+		],
+		"recommended_readings": {
+			"title": "Our recommended readings",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate mollis orci, sed rhoncus sapien nunc eget odio.",
+			"cta_text": "Download the e-book",
+			"cta_link": "#",
+			"author": "Jack Sellers",
+			"pages": "14",
+			"file_size": "7.2mb"
+		},
+		"assets": [
+			{
+				"type": "Blog",
+				"title": "Post title 3",
+				"subtitle": "Lorem Ipsum Dolor Sit Amet",
+				"desc": "text",
+				"cta": "Go to blog",
+				"cta_link": "/blog",
+				"image": "download-1.jpg"
+			},
+			{
+				"type": "Download",
+				"title": "Download title 3",
+				"subtitle": "Lorem Ipsum Dolor Sit Amet",
+				"desc": "text",
+				"cta": "Download",
+				"cta_link": "/download",
+				"image": "download-1.jpg"
+			}
+		]
+	},
+	{
+		"category": "agency",
+		"url": "identifying-your-strengths-and-weaknesses",
+		"available": 0,
+		"video": {
+			"title": "Identifying your strengths and weaknesses",
+			"desc": "Find out how you can turn loss making jobs into profitability and results.",
+			"video_cta": "Watch the video",
+			"date": "14 July 2015",
+			"date_text": "Coming soon",
+			"main_video_img": "conversation-video.jpg",
+    	"small_video_img": "video-1.jpg",
+			"vin_id": "kuhJhV0vs-xG6odXON8tHw"
+		},
+		"related_content_lib": {
+			"title": "Our Recommended Readings",
+			"desc": "We have a number of articles and new downloads related to this topic for you.",
+			"cta_text": "View Library"
+		},
+		"social": {
+			"title": "Find out how you can turn loss making jobs into profitability and results.",
+			"twitter_link": "#",
+			"linkedin_link": "#"
+		},
+		"experts": [
+			{
+				"name": "Tom Smith",
+				"job_title": "ERP SALES MANAGER - UK & MIDDLE EAST",
+				"profile_link": "#",
+				"image": ""
+			},
+			{
+				"name": "Carl Taylor",
+				"job_title": "ERP SALES MANAGER - UK & MIDDLE EAST",
+				"profile_link": "#",
+				"image": ""
+			}
+		],
+		"recommended_readings": {
+			"title": "Our recommended readings",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate mollis orci, sed rhoncus sapien nunc eget odio.",
+			"cta_text": "Download the e-book",
+			"cta_link": "#",
+			"author": "Jack Sellers",
+			"pages": "14",
+			"file_size": "7.2mb"
+		},
+		"assets": [
+			{
+				"type": "Blog",
+				"title": "Post title 4",
+				"subtitle": "Lorem Ipsum Dolor Sit Amet",
+				"desc": "text",
+				"cta": "Go to blog",
+				"cta_link": "/blog",
+				"image": "download-1.jpg"
+			},
+			{
+				"type": "Download",
+				"title": "Download title 4",
+				"subtitle": "Lorem Ipsum Dolor Sit Amet",
+				"desc": "text",
+				"cta": "Download",
+				"cta_link": "/download",
+				"image": "download-1.jpg"
+			}
+		]
+	},
+	{
+		"category": "agency",
+		"url": "how-attractive-are-you",
+		"available": 0,
+		"video": {
+			"title": "How attractive are you?",
+			"desc": "Discover how you can prepare for the challenges of a merger or acquisition.",
+			"video_cta": "Watch the video",
+			"date": "14 July 2015",
+			"date_text": "Coming soon",
+			"main_video_img": "conversation-video.jpg",
+    	"small_video_img": "video-1.jpg",
+			"vin_id": "kuhJhV0vs-xG6odXON8tHw"
+		},
+		"related_content_lib": {
+			"title": "Our Recommended Readings",
+			"desc": "We have a number of articles and new downloads related to this topic for you.",
+			"cta_text": "View Library"
+		},
+		"social": {
+			"title": "Discover how you can prepare for the challenges of a merger or acquisition.",
+			"twitter_link": "#",
+			"linkedin_link": "#"
+		},
+		"experts": [
+			{
+				"name": "Tom Smith",
+				"job_title": "ERP SALES MANAGER - UK & MIDDLE EAST",
+				"profile_link": "#",
+				"image": ""
+			},
+			{
+				"name": "Carl Taylor",
+				"job_title": "ERP SALES MANAGER - UK & MIDDLE EAST",
+				"profile_link": "#",
+				"image": ""
+			}
+		],
+		"recommended_readings": {
+			"title": "Our recommended readings",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate mollis orci, sed rhoncus sapien nunc eget odio.",
+			"cta_text": "Download the e-book",
+			"cta_link": "#",
+			"author": "Jack Sellers",
+			"pages": "14",
+			"file_size": "7.2mb"
+		},
+		"assets": [
+			{
+				"type": "Blog",
+				"title": "Post title 5",
+				"subtitle": "Lorem Ipsum Dolor Sit Amet",
+				"desc": "text",
+				"cta": "Go to blog",
+				"cta_link": "/blog",
+				"image": "download-1.jpg"
+			},
+			{
+				"type": "Download",
+				"title": "Download title 5",
+				"subtitle": "Lorem Ipsum Dolor Sit Amet",
+				"desc": "text",
+				"cta": "Download",
+				"cta_link": "/download",
+				"image": "download-1.jpg"
+			}
+		]
+	}
+]

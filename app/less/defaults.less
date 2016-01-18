@@ -1,0 +1,86 @@
+body {
+  background: #FFFFFF;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 10px;
+  line-height: 10px;
+  background: url(../images/background_grey.jpg);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+p, a, label {
+  -webkit-font-smoothing: antialiased;
+}
+
+section.section-margin {
+  margin-bottom: 30px;
+}
+
+.content-inner {
+  /* margin-left: 45px !important; */
+}
+
+.btn-deltek {
+  font-size: 2.2em;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 0;
+  min-width: 203px;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+  padding: 6px 45px;
+  &.btn-consultancy {
+    background: @deltek-consult;
+    &:after {
+      background: url(../images/button_blue.png) 0 0 no-repeat;
+    }
+  }
+  &.btn-agency {
+    background: @deltek-agency;
+    &:after {
+      background: url(../images/button_green.png) 0 0 no-repeat;
+    }
+  }
+  &.btn-architect {
+    background: @deltek-arch;
+    &:after {
+      background: url(../images/button_purple.png) 0 0 no-repeat;
+    }
+  }
+  &:after {
+    content: "";
+    top: 0px;
+    right: -588px;
+    position: absolute;
+    display: inline-block;
+    width: 700px;
+    height: 90px;
+    z-index: -1;
+    transition-property: top, right;
+    -webkit-transition: all 750ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    -moz-transition: all 750ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    -o-transition: all 750ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    transition: all 750ms cubic-bezier(1.000, 0.000, 0.000, 1.000); /* easeInOutExpo */
+    -webkit-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    -moz-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    -o-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000); /* easeInOutExpo */
+  }
+  &:hover {
+    color: #FFFFFF;
+    &::after {
+      content: "";
+      right: 0px !important;
+      top: -28px !important;
+    }
+  }
+  &:focus {
+    color: #FFFFFF;
+  }
+}

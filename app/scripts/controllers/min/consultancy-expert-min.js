@@ -1,0 +1,1 @@
+"use strict";angular.module("deltekApp").controller("ExpertCtrl",function(t,e){e.layout="consultancy expert"});

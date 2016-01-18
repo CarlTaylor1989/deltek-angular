@@ -1,0 +1,207 @@
+@import "defaults.less";
+@import "mixins.less";
+@import "conversation.less";
+@import "expert.less";
+@import "vertical.less";
+@import "poll.less";
+@import "ie.less";
+
+.social-channel {
+	position: fixed;
+	top: 32%;
+	right: 3px;
+	z-index: 5;
+	ul {
+		list-style: none;
+		li {
+			transition-duration: 0.1s;
+			transition-timing-function: ease-in;
+			img {
+				width: 50px;
+			}
+			&:hover {
+				transform: scale(1.1);
+				-webkit-transform: scale(1.1);
+				-ms-transform: scale(1.1);
+			}
+		}
+	}
+}
+
+.overlay {
+	z-index: 100;
+	.top {
+		border-bottom: 1px solid #5382a7;
+		font-size: 14px;
+		font-weight: bold;
+		padding-bottom: 40px;
+		.block {
+			display: inline-block;
+			padding: 0 40px;
+			img {
+				padding: 10px;
+			}
+			a {
+				color: #fff;
+				span {
+					display: block;
+				}
+			}	
+		}
+	}
+	.consultancy {
+		padding-left: 0;
+		h3 {
+			color: @deltek-consult;
+			border-bottom: 5px solid @deltek-consult;
+			padding: 20px 0;
+			margin-bottom: 40px;
+		}
+		h4 {
+			color: @deltek-consult;
+			margin: 25px 0 20px 0;
+			font-size: 20px;
+		}
+	}
+	.agency {
+		padding-right: 0;
+		h3 {
+			color: @deltek-agency;
+			border-bottom: 5px solid @deltek-agency;
+			padding: 20px 0;
+			margin-bottom: 40px;
+		}
+		h4 {
+			color: @deltek-agency;
+			margin: 25px 0 20px 0;
+			font-size: 20px;
+		}
+	}
+	nav {
+		height: auto;
+	}
+	ul {
+		margin-bottom: 20px;
+		li {
+			height: 3em !important;
+			min-height: 3em !important;
+			line-height: 2.5em !important;
+			a {
+				font-size: 2em !important;
+			}
+		}
+		&.experts {
+			li {
+				height: 10px !important;
+				min-height: 10px !important;
+				margin-bottom: 20px;
+				a {
+					font-size: 1.6em !important;
+				}
+			}
+		}
+	}
+}
+.overlay-cornershape .overlay-path {
+	fill: fade(@deltek-blue-dk, 90%);
+}
+
+.inner {
+	background: url(../images/home-bg.png) no-repeat;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	background-size: contain !important;
+	z-index: 10;
+	.header {
+		.btn {
+			background: none;
+			border: 1px solid #FFFFFF;
+			border-radius: 0px;
+			color: #FFFFFF;
+			position: absolute;
+			top: 20px;
+			right: 15px;
+			padding: 12px;
+			font-size: 2em;
+			line-height: 0;
+			&:focus {
+				outline: 0;
+			}
+		}
+	}
+	.logo-bg {
+		background: url(../images/logo-background.png) no-repeat;
+		width: 462px;
+		height: 155px;
+		position: absolute;
+		left: -174px;
+	}
+	.logo-img {
+		position: absolute;
+		top: 28px;
+		left: 15px;
+	}
+	.menu-bg {
+		background: url(../images/menu-background.png) no-repeat;
+		width: 438px;
+		height: 267px;
+		position: absolute;
+		right: -175px;
+	}
+	footer {
+		background: @deltek-blue;
+		p {
+			color: #FFFFFF;
+			font-size: 1.8em;
+			padding: 25px 0px;
+			margin: 0px;
+			line-height: 1.4;
+			float: left;
+		}
+		.menu {
+			color: #FFFFFF;
+			font-size: 1.8em;
+			padding: 30px 0px;
+			float: right;
+			a {
+				color: #FFFFFF;
+			}
+		}
+	}
+	@import "isotope.less";
+}
+
+.home-intro {
+	background: rgba(255, 255, 255, 0.85);
+	margin-top: 450px;
+	padding: 60px;
+	h1 {
+		font-size: 3.5em;
+		line-height: 1.3;
+		color: @deltek-blue;
+	}
+	p {
+		font-size: 2em;
+		line-height: 1.5;
+		color: @deltek-grey;
+	}
+}
+
+.overlay ul li {
+	height: 40px;
+	min-height: 40px;
+}
+.overlay ul li a {
+	font-size: 3.6em;
+}
+
+@media only screen and (min-width: 1520px) {
+	.inner {
+		width: 1520px;
+	}
+}
+
+@import "tablet.less";
+@import "mobile.less";

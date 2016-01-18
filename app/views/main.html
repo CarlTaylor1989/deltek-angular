@@ -1,0 +1,104 @@
+<!-- Segment Pixel - -->
+<script src="https://secure.adnxs.com/seg?add=3195284&t=1" type="text/javascript"></script>
+<!-- End of Segment Pixel -->
+
+<div class="container">
+	<section class="home-intro section-margin">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-6">
+				<h1>What if you had greater insight and control? How far could you take your success?</h1>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6">
+				<p>How do you feel about new opportunities? Excited and light on your feet – or cautious of change? And how good are your operations? Are you in full control of your resources, with a clear vision for greater profitability – or still feeling your way?</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="iso-section section-margin" ng-controller="isotopeData" ng-init="init()">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="filter-controls" opt-kind ok-key="filter">
+
+<!-- Uncomment when Architect & Engineer goes live -->
+					<button type="button" ng-click="isoTab('')" class="btn btn-default btn-iso btn-show hvr-sweep-to-top active" ok-sel="*">SHOW ALL</button>
+
+
+
+					<!-- <button type="button" class="btn btn-default btn-iso btn-consultancy two-buttons">CONSULTANCY</button>
+					<button type="button" class="btn btn-default btn-iso btn-agency two-buttons">AGENCY</button> -->
+
+
+<!-- Uncomment below when Architect & Engineer goes live and delete the two buttons above -->
+					<button type="button" ng-click="isoTab('consultancy')" class="btn btn-default btn-iso btn-consultancy hvr-sweep-to-top two-buttons" ok-sel=".consultancy, .tweet">CONSULTANCY</button>
+					<button type="button" ng-click="isoTab('agency')" class="btn btn-default btn-iso btn-agency hvr-sweep-to-top two-buttons" ok-sel=".agency, .tweet">AGENCY</button>
+
+					<button type="button" ng-click="isoTab('architects-engineers')" class="btn btn-default btn-iso btn-architects-engineers hvr-sweep-to-top" ok-sel=".architect, .tweet">ARCHITECTS
+						<br/>&amp; ENGINEERS</button>
+
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="isotope">
+					<ul id="isotopeContainer" isotope-container="" ng-cloak="" iso-options="">
+						<li ng-repeat="iso in isodata" isotope-item="" class="kindling {{ iso.style }} {{ iso.category }} isotope-item">
+
+							<!-- Tweet Template -->
+							<div class="iso-tweet iso-item-box" ng-if="iso.category == 'tweet'" tweet-template>
+								<h4>{{ iso.content.title }}</h4>
+								<div class="twitter-bird"></div>
+							</div>
+
+							<!-- Wide Template -->
+							<div class="iso-wide iso-item-box" ng-if="iso.style == 'wide'" wide-template>
+								<div class="content">
+									<h4>&ldquo;{{ iso.content.title }}&rdquo;</h4>
+									<p>{{ iso.content.desc }}</p>
+									<div ng-switch="iso.content.link.external">
+										<a ng-switch-when="0" ng-if="iso.content.link.url" ng-href="{{ iso.content.link.url }}">{{ iso.content.link.text }}</a>
+										<a ng-switch-when="1" ng-if="iso.content.link.url" ng-href="{{ iso.content.link.url }}" target="_blank">{{ iso.content.link.text }}</a>
+									</div>
+								</div>
+								<div class="circle-image" ng-if="iso.content.image">
+									<img ng-src="images/people/{{ iso.content.image }}" alt="">
+								</div>
+								<div class="clearfix"></div>
+								<div class="corner"></div>
+							</div>
+
+							<!-- Tall Template -->
+							<div class="iso-tall iso-item-box" ng-if="iso.style == 'tall'" wide-template>
+								<div class="content">
+									<h4>{{ iso.content.title }}</h4>
+									<div ng-switch="iso.content.link.external">
+										<a ng-switch-when="0" ng-if="iso.content.link.url" ng-class="{'consultancy': 'btn-consultancy', 'agency': 'btn-agency', 'architect': 'btn-architect'}[iso.category]" ng-href="{{ iso.content.link.url }}" class="btn btn-default btn-deltek">{{ iso.content.link.text }}</a>
+										<a ng-switch-when="1" ng-if="iso.content.link.url" ng-href="{{ iso.content.link.url }}" class="btn btn-default btn-deltek" target="_blank">{{ iso.content.link.text }}</a>
+									</div>
+								</div>
+							</div>
+
+							<!-- Large Template -->
+							<div class="iso-large iso-item-box" ng-if="iso.style == 'large'" large-template>
+								<div class="top-image" ng-if="iso.content.image">
+									<img ng-src="images/{{ iso.content.image }}" alt="" class="img-responsive">
+								</div>
+								<div class="content">
+									<h4>{{ iso.content.title }}</h4>
+									<p>{{ iso.content.desc }}</p>
+									<div ng-switch="iso.content.link.external">
+										<a ng-switch-when="0" ng-if="iso.content.link.url" ng-href="{{ iso.content.link.url }}">{{ iso.content.link.text }}</a>
+										<a ng-switch-when="1" ng-if="iso.content.link.url" ng-href="{{ iso.content.link.url }}" target="_blank">{{ iso.content.link.text }}</a>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+								<div class="corner"></div>
+							</div>
+
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>

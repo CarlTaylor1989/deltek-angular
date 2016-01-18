@@ -1,0 +1,225 @@
+<div class="container">
+  <section class="conversation-intro">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="colour-scheme">What If You Could Harness Every Detail for Growth?</h1>
+        <h2>What are the best ways to grow your consultancy firm? How can you enable change to create competitive advantages? Find out from the experts. Watch our series of video interviews to discover how to improve business insight, and also how to use that to identify opportunities and drive stronger growth.</h2>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div ng-controller="VideoTestCtrl">
+  <div class="container video-overflow">
+    <section ng-if="data.category == layout" ng-class="{selected: $index == selected, show: $index == selected, hidden: $index != selected}" class="conversation-expert-box section-margin video-{{ $index }}" data-video="video-{{ $index }}" data-video-code="{{ data.video.vin_id }}" ng-repeat="data in videodata">
+      <div class="row">
+        <div class="col-lg-9 col-md-12 col-sm-12">
+          <vidyard id="data.video.vin_id" class="vidyard-{{$index}}"></vidyard>
+          <div class="video-container" ng-click="videoClick($index, data.video.vin_id, data.video.title)" id="video-container-{{$index}}" ng-style="{ 'background': 'url(../images/conversation/'+ data.video.main_video_img +')', 'background-repeat' : 'no-repeat' }">
+            <h3>{{ data.video.title }}</h3>
+            <p><i class="fa fa-play"></i></p>
+            <p>{{ data.video.video_cta }}</p>
+          </div>
+          <div class="row social-container">
+            <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12">
+              <p>{{ data.social.title }}</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12">
+              <div class="social-channels">
+                Share this video <a ng-href="https://twitter.com/home?status={{ data.video.title }} {{ data.url }}" target="_blank"><img src="../images/conversation/twitter-icon.jpg" alt=""></a> <a ng-href="https://www.linkedin.com/shareArticle?mini=true&url={{ data.url }}&title={{ data.video.title }}" target="_blank"><img src="../images/conversation/linkedin-icon.jpg" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-12 col-sm-12">
+          <div class="expert-container" style="">
+            <div class="row">
+              <div class="col-lg-12 col-md-4 col-sm-4">
+                <div style="height: 100%;">
+                  <img src="../images/conversation/book-ph.png" alt="" class="img-responsive">
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-8 col-sm-8">
+                <h4>{{ data.related_content_lib.title }}</h4>
+                <p>{{ data.related_content_lib.desc }}</p>
+                <a class="btn btn-default btn-deltek btn-architect" scroll-on-click scroll-to="#related-library">{{ data.related_content_lib.cta_text }}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section class="white-bg more-videos">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <h4>Other episodes</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div id="Carousel" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="item" ng-class="{active: !$index}" ng-repeat="(parentId, item) in videos">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-4" ng-if="data.category == layout && parentId == 0" ng-repeat="data in item">
+                  	<div ng-if="data.available === 1">
+                  		<a href="" ng-click="videoSwap($index, data.video.vin_id, data.url)" class="carousel-video-{{$index}}">
+                  			<div class="small-video-tn" ng-style="{ 'background': 'url(../images/conversation/'+ data.video.small_video_img +')', 'background-repeat' : 'no-repeat' }">
+                  			</div>
+                  		</a>
+											<h5>{{ data.video.title }}</h5>
+											<p>{{ data.video.desc }}</p>
+                  	</div>
+                  	
+                  	<div ng-if="data.available === 0">
+                  		<a href="" class="carousel-video-{{$index}}">
+                  			<div class="small-video-tn" ng-style="{ 'background': 'url(../images/conversation/'+ data.video.small_video_img +')', 'background-repeat' : 'no-repeat' }">
+                  				<div class="layer">
+                  					<img src="../images/coming-soon-consultancy.png" alt="Coming Soon" class="coming-soon">
+                  					<h5>{{ data.video.date }}</h5>
+                  				</div>
+                  			</div>
+                  		</a>
+											<h5>{{ data.video.title }}</h5>
+											<p>{{ data.video.desc }}</p>
+                  	</div>
+                    
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4" ng-repeat="(childId, data) in item" ng-if="parentId == 1">
+                    <div ng-if="data.available === 1">
+                  		<a href="" ng-click="videoSwap($index, data.video.vin_id, data.url)" class="carousel-video-{{$index}}">
+                  			<div class="small-video-tn" ng-style="{ 'background': 'url(../images/conversation/'+ data.video.small_video_img +')', 'background-repeat' : 'no-repeat' }">
+                  			</div>
+                  		</a>
+											<h5>{{ data.video.title }}</h5>
+											<p>{{ data.video.desc }}</p>
+                  	</div>
+                  	
+                  	<div ng-if="data.available === 0">
+                  		<a href="" class="carousel-video-{{$index}}">
+                  			<div class="small-video-tn" ng-style="{ 'background': 'url(../images/conversation/'+ data.video.small_video_img +')', 'background-repeat' : 'no-repeat' }">
+                  				<div class="layer">
+                  					<img src="../images/coming-soon-consultancy.png" alt="Coming Soon" class="coming-soon">
+                  					<h5>{{ data.video.date }}</h5>
+                  				</div>
+                  			</div>
+                  		</a>
+											<h5>{{ data.video.title }}</h5>
+											<p>{{ data.video.desc }}</p>
+                  	</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <span class="left carousel-control" data-target="#Carousel" data-slide="prev" ng-if="dataCount">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </span>
+            <span class="right carousel-control" data-target="#Carousel" data-slide="next" ng-if="dataCount">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="grey-bg expert-section">
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-lg-12 col-md-12 col-sm-12 content-section">
+  				<h4>Connect with Our Experts</h4>
+  			</div>
+  		</div>
+  	</div>
+   <div ng-class="{selected: $index == selected, show: $index == selected, hidden: $index != selected}" class="container-exp expert-{{ $index }}" ng-repeat="exp in videodata">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 content-section">
+						<div class="row">
+							<div ng-class="{'col-lg-4 col-md-4 col-sm-4': expertsLengths[selected] === 3, 'col-lg-6 col-md-6 col-sm-6': expertsLengths[selected] === 2, 'col-lg-12 col-md-12 col-sm-12': expertsLengths[selected] === 1}" ng-repeat="expert in experts[selected]" class="expert-col" data-expert-col="expert-{{ selected }}">
+								<div class="expert-container text-center">
+									<img ng-src="../images/people/{{ expert.image }}" class="img-responsive expert-img">
+									<h4>{{ expert.name }}</h4>
+									<h5 class="colour-scheme">{{ expert.job_title }}</h5>
+									<a href="{{ expert.profile_link }}" class="btn btn-default btn-deltek btn-architect">View Profile</a>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+    </div>
+  </section>
+	
+	<div id="related-library">
+		<section class="white-bg download-section" ng-class="{selected: $index == selected, show: $index == selected, hidden: $index != selected}" ng-repeat="data in videodata">
+			<div class="container">
+				<div class="row recommend-read">
+					<div class="col-lg-5 col-md-5 col-sm-5">
+						<img src="../images/conversation/book-ph.png" alt="" class="img-responsive">
+					</div>
+					<div class="col-lg-7 col-md-7 col-sm-7">
+						<h4>{{ data.recommended_readings.title }}</h4>
+						<p>{{ data.recommended_readings.desc }}</p>
+						<a href="{{ data.recommended_readings.cta_link }}" class="btn btn-default btn-deltek btn-architect pull-left">{{ data.recommended_readings.cta_text }}</a>
+						<div class="download-details pull-left">
+							<p><strong>Author:</strong> {{ data.recommended_readings.author }}</p>
+							<p><strong>Pages:</strong> {{ data.recommended_readings.pages }} <strong>File Size:</strong> {{ data.recommended_readings.file_size }}</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						
+						<div class="row">
+							<div class="asset-pad">
+								<div class="col-lg-4 col-md-4 col-sm-4 asset-container" ng-repeat="asset in assets[selected]">
+									<img ng-src="../images/conversation/{{ asset.image }}" class="img-responsive download-img" alt="">
+									<div class="download-content text-center">
+										<h5 class="colour-scheme">{{ asset.title }}</h5>
+										<h6>{{ asset.subtitle }}</h6>
+										<p>{{ asset.desc }}</p>
+										<a href="{{ asset.cta_link }}" class="btn btn-default btn-deltek btn-architect">{{ asset.cta }}</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+<!--
+						<div id="downloads" class="carousel slide">
+							<div class="carousel-inner">
+								<div class="item" ng-class="{active: !$index}" ng-repeat="(parentsId, asset) in assets">
+									<div class="row">
+										<div class="col-lg-4 col-md-4 col-sm-4" ng-repeat="info in asset[selected]">
+											<img ng-src="../images/conversation/{{ info.image }}" class="img-responsive download-img" alt="">
+											<div class="download-content text-center">
+												<h5 class="colour-scheme">{{ info.title }}</h5>
+												<h6>Post Title Lorem Ipsum Dolor Sit Amet</h6>
+												<p>{{ info.desc }}</p>
+												<a href="{{ info.cta_link }}" class="btn btn-default btn-deltek btn-architect">{{ info.cta }}</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<span class="left carousel-control" data-target="#downloads" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</span>
+							<span class="right carousel-control" data-target="#downloads" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</span>
+						</div>
+-->
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+  <ng-include src="'/views/partials/contact-form.html'"></ng-include>
+
+</div>

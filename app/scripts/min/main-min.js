@@ -1,0 +1,1 @@
+setTimeout(function(){var t=$(".download-content").map(function(){return $(this).height()}).get(),n=Math.max.apply(null,t);$(".download-content").height(n)},1500);

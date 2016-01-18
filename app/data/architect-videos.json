@@ -1,0 +1,212 @@
+[
+	{
+		"category": "architect",
+		"url": "how-to-grow-your-organisation",
+		"available": 1,
+		"video": {
+			"title": "Video title",
+			"desc": "Video description",
+			"video_cta": "Watch the video",
+			"date": "14 July 2015",
+			"date_text": "Coming soon",
+			"main_video_img": "conversation-video.jpg",
+    	"small_video_img": "video-1.jpg",
+			"vin_id": "-DLBPfthylaYI5tMI78aTw"
+		},
+		"related_content_lib": {
+			"title": "Related Content Library",
+			"desc": "We have a number of articles and new downloads related to this topic for you.",
+			"cta_text": "View Library"
+		},
+		"social": {
+			"title": "Social title",
+			"twitter_link": "#",
+			"linkedin_link": "#"
+		},
+		"experts": [
+			{
+				"name": "Kamran Akram",
+				"job_title": "ERP SALES MANAGER - UK & MIDDLE EAST",
+				"profile_link": "#",
+				"image": "raymond-kieser.png"
+			},
+			{
+				"name": "Glen Smith",
+				"job_title": "ERP SALES MANAGER - UK & MIDDLE EAST",
+				"profile_link": "#",
+				"image": "raymond-kieser.png"
+			},
+			{
+				"name": "Ian Norman",
+				"job_title": "ERP SALES MANAGER - UK & MIDDLE EAST",
+				"profile_link": "#",
+				"image": "raymond-kieser.png"
+			}
+		],
+		"recommended_readings": {
+			"title": "Our recommended readings",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate mollis orci, sed rhoncus sapien nunc eget odio.",
+			"cta_text": "Download the e-book",
+			"cta_link": "#",
+			"author": "Jack Sellers",
+			"pages": "14",
+			"file_size": "7.2mb"
+		},
+		"assets": [
+			{
+				"type": "Blog",
+				"title": "Post title 1",
+				"subtitle": "Lorem Ipsum Dolor Sit Amet",
+				"desc": "text",
+				"cta": "Go to blog",
+				"cta_link": "/blog",
+				"image": "download-1.jpg"
+			},
+			{
+				"type": "Download",
+				"title": "Download title 1",
+				"subtitle": "Lorem Ipsum Dolor Sit Amet",
+				"desc": "text",
+				"cta": "Download",
+				"cta_link": "/download",
+				"image": "download-1.jpg"
+			}
+		]
+	},
+	{
+		"category": "architect",
+		"url": "real-time-analytics",
+		"available": 1,
+		"video": {
+			"title": "Video title",
+			"desc": "Video description",
+			"video_cta": "Watch the video",
+			"date": "14 July 2015",
+			"date_text": "Coming soon",
+			"main_video_img": "conversation-video.jpg",
+    	"small_video_img": "video-1.jpg",
+			"vin_id": "EWapWso65YcsnrmA7X5sGw"
+		},
+		"related_content_lib": {
+			"title": "Related Content Library",
+			"desc": "We have a number of articles and new downloads related to this topic for you.",
+			"cta_text": "View Library"
+		},
+		"social": {
+			"title": "Social title",
+			"twitter_link": "#",
+			"linkedin_link": "#"
+		},
+		"experts": [
+			{
+				"name": "Tom Smith",
+				"job_title": "ERP SALES MANAGER - UK & MIDDLE EAST",
+				"profile_link": "#",
+				"image": "raymond-kieser.png"
+			},
+			{
+				"name": "Carl Taylor",
+				"job_title": "ERP SALES MANAGER - UK & MIDDLE EAST",
+				"profile_link": "#",
+				"image": "raymond-kieser.png"
+			}
+		],
+		"recommended_readings": {
+			"title": "Our recommended readings",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate mollis orci, sed rhoncus sapien nunc eget odio.",
+			"cta_text": "Download the e-book",
+			"cta_link": "#",
+			"author": "Jack Sellers",
+			"pages": "14",
+			"file_size": "7.2mb"
+		},
+		"assets": [
+			{
+				"type": "Blog",
+				"title": "Post title 2",
+				"subtitle": "Lorem Ipsum Dolor Sit Amet",
+				"desc": "text",
+				"cta": "Go to blog",
+				"cta_link": "/blog",
+				"image": "download-1.jpg"
+			},
+			{
+				"type": "Download",
+				"title": "Download title 2",
+				"subtitle": "Lorem Ipsum Dolor Sit Amet",
+				"desc": "text",
+				"cta": "Download",
+				"cta_link": "/download",
+				"image": "download-1.jpg"
+			}
+		]
+	},
+	{
+		"category": "architect",
+		"url": "cloud-and-mobile",
+		"available": 1,
+		"video": {
+			"title": "Video title",
+			"desc": "Video description",
+			"video_cta": "Watch the video",
+			"date": "14 July 2015",
+			"date_text": "Coming soon",
+			"main_video_img": "conversation-video.jpg",
+    	"small_video_img": "video-1.jpg",
+			"vin_id": "kuhJhV0vs-xG6odXON8tHw"
+		},
+		"related_content_lib": {
+			"title": "Related Content Library",
+			"desc": "We have a number of articles and new downloads related to this topic for you.",
+			"cta_text": "View Library"
+		},
+		"social": {
+			"title": "Social title",
+			"twitter_link": "#",
+			"linkedin_link": "#"
+		},
+		"experts": [
+			{
+				"name": "Tom Smith",
+				"job_title": "ERP SALES MANAGER - UK & MIDDLE EAST",
+				"profile_link": "#",
+				"image": "raymond-kieser.png"
+			},
+			{
+				"name": "Carl Taylor",
+				"job_title": "ERP SALES MANAGER - UK & MIDDLE EAST",
+				"profile_link": "#",
+				"image": "raymond-kieser.png"
+			}
+		],
+		"recommended_readings": {
+			"title": "Our recommended readings",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate mollis orci, sed rhoncus sapien nunc eget odio.",
+			"cta_text": "Download the e-book",
+			"cta_link": "#",
+			"author": "Jack Sellers",
+			"pages": "14",
+			"file_size": "7.2mb"
+		},
+		"assets": [
+			{
+				"type": "Blog",
+				"title": "Post title 2",
+				"subtitle": "Lorem Ipsum Dolor Sit Amet",
+				"desc": "text",
+				"cta": "Go to blog",
+				"cta_link": "/blog",
+				"image": "download-1.jpg"
+			},
+			{
+				"type": "Download",
+				"title": "Download title 2",
+				"subtitle": "Lorem Ipsum Dolor Sit Amet",
+				"desc": "text",
+				"cta": "Download",
+				"cta_link": "/download",
+				"image": "download-1.jpg"
+			}
+		]
+	}
+]
